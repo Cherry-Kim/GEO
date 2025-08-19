@@ -1,1 +1,1 @@
-md5sum *.bam > WBC.md5 
+md5sum *.bam > Tumor.md5 
