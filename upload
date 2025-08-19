@@ -3,7 +3,7 @@ After login -> GEO File Transfer Protocol (FTP) -> Example Linux/Unix sessions
 
 ncftp
 set passive on
-set so-bufsize 33554432
+set so-bufsize ********
 open ftp://geoftp:password@ftp-private.ncbi.nlm.nih.gov
-cd uploads/khy****@gmail.com_0BO5ma8e
+cd uploads/khy****@gmail.com_********
 put *.bam
