@@ -1,0 +1,9 @@
+#https://www.ncbi.nlm.nih.gov/geo/info/submissionftp.html
+After login -> GEO File Transfer Protocol (FTP) -> Example Linux/Unix sessions
+
+ncftp
+set passive on
+set so-bufsize 33554432
+open ftp://geoftp:password@ftp-private.ncbi.nlm.nih.gov
+cd uploads/khy****@gmail.com_0BO5ma8e
+put *.bam
